@@ -7,11 +7,11 @@ import Assert.Assertion;
  * @author Maisha Jauernig
  * @param <E>
  */
-class MJ_OC_List <E> extends MJ_OC <E>{
+public class MJ_OC_List <E> extends MJ_OC <E>{
     private MJ_OC_Node<E> _start = null;
     private int _len = 0;
     
-    public MJ_OC_List(){
+    MJ_OC_List(){
     	super();
     }
     

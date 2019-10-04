@@ -7,7 +7,7 @@ import Assert.Assertion;
  * @author Maisha Jauernig
  * @param <E>
  */
-class MJ_OC_Array<E> extends MJ_OC<E> {
+public class MJ_OC_Array<E> extends MJ_OC<E> {
 	
     private E[] _storage;
     private int _storageSize;
@@ -16,7 +16,7 @@ class MJ_OC_Array<E> extends MJ_OC<E> {
     private final int _initialLen;
     
     @SuppressWarnings("unchecked")
-	public MJ_OC_Array(int len){
+	MJ_OC_Array(int len){
         _initialLen = len;
         _storage = (E[]) new Object[_initialLen];
         _storageSize = _initialLen;
